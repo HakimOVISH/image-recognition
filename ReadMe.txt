@@ -1,0 +1,37 @@
+follow these steps to make it work :
+create a directory called "static"
+in the static directory create 3 other directories : "feature" "img" "uploaded"
+
+you should have this layout now : 
+static/feature
+static/img
+static/uplaoded
+templates/index
+feature_extraction
+offline
+server
+
+go ahead now and put somme pictures in static/img
+
+run the offline.py file
+
+wait for it to finish 
+
+then run the server.py file 
+
+give it a minute or two then it ll give you a link in the console
+
+click it upload a file
+
+every uploaded file will go in the static/uploaded in order to increase the accuracy of the engine
+
+Requirements :
+
+python
+flask
+tenserflow and keras
+numpy
+pillow PIL
+pathlib
+turtle
+isort
